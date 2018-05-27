@@ -1,0 +1,539 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+.header
+{
+	background-color:#ececed;
+	height:173px;
+}
+.logo{
+	padding:30px;
+	text-align:center;
+}
+.nav{
+	width:670px;
+	height:45px;
+	margin:0 auto;
+	border-radius:23px;
+	background-color:white;
+}
+.nav li{
+	float: left;
+	height: 45px;
+	padding: 0 26px;
+	line-height: 45px;
+	background: url(../html/cut2.png)no-repeat right center;
+}
+.nav1 a{
+	display:inline;
+	height:42px;
+	border-bottom: 3px solid #1e50ae;
+}
+.nav li:last-child{
+	background:none;
+}
+/* banner开始 */
+.banner{
+	width:100%;
+	height:405px;
+	background:url(../html/cut3.png) no-repeat center center;
+}
+/* 服务开始 */
+.banner1{
+	height: 235px;
+	width: 682px;
+	margin:84px 439px 92px 439px ;
+	background: url(../html/cut4.png) no-repeat center center;
+	position:absolute;
+}
+.banner2{
+	margin:144px 489px 219px 489px;
+	height:45px;
+	width:585px;
+	background: url(../html/cut5.png) no-repeat center center;
+	position:absolute;
+}
+.banner3{
+	margin:225px 510px 140px 504px ;
+	height:44px;
+	width:555px;
+	background:url(../html/cut6.png) no-repeat center center;
+	position: absolute;
+}
+.banner4{
+	width:100%;
+	height: 712px;
+	background:url(../html/cut16.png) no-repeat center center;
+}
+.banner5{
+	margin: 215px 1091px 198px 243px;
+    position: absolute;
+
+}
+.banner6{
+	margin: 215px 809px 198px 522px ;
+	position: absolute;
+}
+.banner7{
+	margin: 215px  527px 198px  803px;
+	position: absolute;
+}
+.banner8{
+	margin: 215px 246px  198px 1084px;
+	position: absolute;
+}
+.banner9{
+	margin: 593px 662px 67px 646px;
+	position: absolute;
+}
+.banner10{
+	margin: 346px 1355px 333px 204px;
+	position: absolute;
+}
+.banner11{
+	margin:346px 204px  333px   1355px; 
+	position: absolute; 
+}
+.banner12{
+	width:100%;
+	height: 386px;
+	background:url(../html/cut31.png) no-repeat center center;
+}
+.banner13{
+	width: 1195px;
+	height: 279px;
+	margin: 75px 180px;
+	position: absolute; 
+}
+.serve{
+	width:1200px;
+	height:810px;
+	margin:0 auto;
+}
+.tags1{
+	text-align: center;
+	margin-top:61px ;
+	font-size: 34px ;
+}
+.tags2{
+	text-align: center;
+	margin-top:24px;
+	font-size: 30px ;
+}
+.tags3{
+	width: 467px;
+	padding-left: 466px;
+	font-size: 34px;
+}
+.tags4{
+	padding-top: 16px;
+	padding-left:404px;
+	font-size: 25px;
+}
+.tags5{
+	padding-top: 82px;
+	padding-left:561px;
+	font-size: 25px;
+
+}
+.tags6{
+	padding-top: 12px;
+	padding-left:561px;
+	font-size: 20px;
+}
+.tags7{
+	padding-top: 25px;
+	padding-left:561px;
+	font-size: 14px;
+	color: #aaaaaa;
+}
+.tags8{
+	padding-top: 17px;
+	padding-left: 561px;
+	font-size: 14px;
+	color:#aaaaaa;
+}
+.tags9{
+	padding-left: 76px;
+	font-size:14px ;
+	color:#aaaaaa;
+}
+.tags10{
+	padding-left:45px;
+	font-size:14px ;
+	color: #aaaaaa;
+}
+.tags11{
+	padding-left: 76px;
+	line-height: 70px;
+	font-size:14px ;
+	color: #aaaaaa;
+}
+.tags12{
+	padding-left:45px;
+	font-size:14px ;
+	line-height: 70px;
+	color: #aaaaaa;
+}
+.tags13{
+	padding-left: 76px;
+	line-height: 30px;
+	font-size:14px ;
+	color: #aaaaaa;
+}
+.tags14{
+	padding-left: 45px;
+	line-height: 30px;
+	font-size:13px ;
+	color: #aaaaaa;
+}
+.tags15{
+	padding-left:118px ;
+	font-size:13px ;
+	color: #484848;
+}
+.tags16{
+	padding-left:177px ;
+	font-size:13px ;
+	color: #484848;
+}
+.tags17{
+	padding-left:184px ;
+	font-size:13px ;
+	color: #484848;
+}
+.tags18{
+	padding-left:178px ;
+	font-size:14px ;
+	color: #484848;
+}
+.serve1{
+	width:1200px ;
+	height:676px ;
+}
+.server2{
+	width: 1200px;
+	height: 180px;
+	margin-top:233px ;
+}
+.server3{
+	width: 1200px;
+	height: 80px;
+	margin-top: 180px;
+}
+.server4{
+	width: 100%;
+	height: 1011px;
+	background:url(../html/cut24.png);
+}
+.server5{
+	width: 1065px;
+	height: 409px;
+	margin:58px 250px 441px 248px ;
+	position:absolute;
+}
+.server6{
+	width: 1200px;
+	height: 449px;
+	margin:562px 180px 0px 180px;
+	position:absolute; 
+}
+.guide1{
+	margin-left: 68px;
+	margin-top: 64px;
+	margin-right: 987px;
+	margin-bottom: 465px;
+	position: absolute;
+}
+.guide2{
+	margin-left: 372px;
+	margin-top:  64px;
+	margin-right: 681px;
+	margin-bottom: 465px;
+	position: absolute;
+	
+}
+.guide3{
+	margin-left: 681px;
+	margin-top:  64px;
+	margin-right: 373px;
+	margin-bottom: 465px;
+	position: absolute;
+}
+.guide4{
+	margin-left: 987px;
+	margin-top:  64px;
+	margin-right: 68px;
+	margin-bottom: 465px;
+	position: absolute;
+}
+.guide5{
+	margin-left: 68px;
+	margin-top:  428px;
+	margin-right: 987px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+.guide6{
+	margin-left: 372px;
+	margin-top:  428px;
+	margin-right: 681px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+.guide7{
+	margin-left: 681px;
+	margin-top:  428px;
+	margin-right: 373px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+.guide8{
+	margin-left: 987px;
+	margin-top:  428px;
+	margin-right: 68px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+.guide9{
+	padding-top:131px;
+}
+.list1{
+	font-size:15px ;
+	padding-left: 108px;
+}
+.list2{
+	font-size: 10px;
+	padding-left:105px;
+	line-height:25px; 
+	color: rgb(170, 170, 170);
+}
+.list3{
+	font-size:15px;
+	padding-left: 245px;
+}
+.list4{
+	font-size: 10px;
+	padding-left: 256px;
+	line-height:25px;
+	color: rgb(170, 170, 170);
+}
+.list5{
+	font-size: 10px;
+	padding-left: 238px;
+	line-height:25px;
+	color: rgb(170, 170, 170);
+}
+.list6{
+	font-size: 10px;
+	padding-left: 250px;
+	line-height:25px;
+	color: rgb(170, 170, 170);
+}
+.list7{
+	font-size: 10px;
+	padding-left: 570px;
+	line-height:25px;
+	color: rgb(170, 170, 170);
+}
+.list8{
+	font-size:15px;
+	padding-left: 212px;
+}
+.list9{
+	font-size:15px;
+	padding-left: 233px;
+}
+.txt1{
+	padding-top:  64px;
+	padding-left: 714px;
+	font-size: 34px;
+	color: white;
+}
+.txt2{
+	padding-top:  23px;
+	padding-left: 723px;
+	font-size: 30px;
+	color: white;
+}
+.txt3{
+	padding-top:435px;
+	padding-left: 727px;
+	font-size: 15px;
+	color: white;
+}
+.txt4{
+	padding-left: 119px;
+	/* padding-bottom:51px; */
+	font-size: 20px;
+	color: rgb(72, 72, 72);
+}
+.txt5{
+	padding-left: 223px;
+	font-size: 20px;
+	color: rgb(72, 72, 72);
+}
+.txt6{
+	padding-left: 250px;
+	font-size: 20px;
+	color: rgb(72, 72, 72);
+}
+.txt7{
+	padding-left:201px;
+	font-size: 20px;
+	color: rgb(72, 72, 72);
+}
+.imgs1{
+	padding:115px 581px 0px 0px ;
+	position: absolute;
+}
+.imgs2{
+	margin:374px 1284px 26px 50px ;
+	position: absolute;
+}
+.imgs3{
+	padding:374px 808px 26px 345px ;
+	position: absolute;
+}
+.imgs4{
+	padding:373px 485px 26px 669px ;
+	position: absolute;
+}
+.imgs5{
+	padding:373px 211px 26px 944px ;
+	position: absolute;
+}
+.imgs6{
+	padding:72px 518px 168px 896px ;
+	position: absolute;
+}
+.imgs7{
+	padding:132px 364px 226px 1173px ;
+	position: absolute;
+}
+.imgs8{
+	padding:183px 360px 179px 1173px ;
+	position: absolute;
+}
+.button{
+	width: 138px;
+	height: 39px;
+	margin:7px 366px 0px 558px;
+	position: absolute;
+	border: 1px solid #1141a3;
+	border-radius: 39px;
+	color: #1141a3;
+	background: white;
+}
+.foot{
+	width: 100%;
+	height: 387px;
+	background-color: #323232;
+}
+.foot .footmain{
+	float: left;
+	width: 100%;
+	height: 145px;
+	margin-top: 70px;
+
+}
+.footmain .footword{
+	float: left;
+	width: 623px;
+	height: 145px;
+	margin-left: 180px;
+
+
+}
+.footword ul{
+	float: left;
+	padding-right: 104px;
+	color: #fff;
+}
+#lastfoot{
+	padding-right: 0;
+}
+.footword .wordone{
+	padding-bottom: 27px;
+	font-size: 18px;
+}
+.footword ul li{
+	padding-bottom: 17px;
+	font-size: 14px;
+}
+.footmain .qrcode img{
+	float: left;
+	margin-left: 94px;
+}
+.footmain .qrcode span{
+	float: left;
+	display: block;
+	width: 21px;
+	height: 128px;
+	padding: 10px 36px;
+	color: #fff;
+	font-size: 18px;
+}
+.footmain .call{
+	float: left;
+	width: 244px;
+	height: 145px;
+	padding-left: 34px;
+	background: url('../img/shu2.png') no-repeat left center;
+}
+.call p{
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+}
+.call .qq{
+	padding-left: 40px;
+	font-size: 16px;
+	background: url(../html/cut32.png) no-repeat left center;
+}
+.call .wechat{
+	padding-left: 40px;
+	font-size: 16px;
+	background: url(../html/cut33.png) no-repeat left center;
+}
+.foot .hrr{
+	float: left;
+	height: 44px;
+	width: 100%;
+	margin-bottom: 38px;
+	border-bottom: 1px solid #777;
+}
+.foot .bottom{
+	display: inline-block;
+	height: 17px;
+	width: 100%;
+	text-align: center;
+}
+.bottom ul li{
+	display: inline;
+	padding: 0 13px;
+	border-left: 2px solid #a6a6a6;
+	color: #fff;
+}
+.bottom ul .one{
+	border: none;
+}
+.foot .last{
+	float: left;
+	height: 18px;
+	width: 100%;
+	margin: 23px auto;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+
+
+
